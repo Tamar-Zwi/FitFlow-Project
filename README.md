@@ -5,6 +5,15 @@ FitFlow Studio is a high-performance Full-Stack application designed to streamli
 
 ---
 
+### ✨ The Vibe Coding Experience (Powered by v0)
+This project embraces the **Vibe Coding** methodology. By leveraging **v0 AI**, the frontend development was accelerated to achieve a high-end, modern UI/UX without compromising on performance. 
+
+* **Rapid Prototyping:** Used v0 to generate complex React components and fluid CSS animations in record time.
+* **Seamless Integration:** Bridged the gap between AI-generated UI and a robust, custom-built C# backend.
+* **Modern Aesthetic:** The result is a polished, "startup-vibe" interface that feels intuitive and premium.
+
+---
+
 ### Core Features
 
 **👑 For Administrators**
@@ -23,17 +32,17 @@ FitFlow Studio is a high-performance Full-Stack application designed to streamli
 * **Security:** Solid JWT Bearer authentication and industry-standard password encryption.
 * **Role-Based Access (RBAC):** Strict server-side separation between Admin and Member permissions.
 * **API & Documentation:** Fully RESTful architecture, documented and tested using Swagger.
-* **Vibe Coding:** Frontend accelerated by v0 AI to ensure a modern, polished look and feel.
+* **Architecture:** Clean separation of concerns with a dedicated .NET Web API and a decoupled React client.
 
 ---
 
 ### Tech Stack
 * **Backend:** C# | .NET Core | SQL Server
-* **Frontend:** React | CSS3 Animations
+* **Frontend:** React | Tailwind CSS | v0 (UI Acceleration)
 * **Security & Tools:** JWT, Git, Swagger, Postman
 
 ---
 
 ### Quick Start
 1. **Backend:** Clone the repo, set your connection string in `appsettings.json`, and run `dotnet run`.
-2. **Frontend:** Inside the client folder, run `npm install` followed by `npm start`.
+2. **Frontend:** Inside the client folder, run `npm install` followed by `npm run dev`.
