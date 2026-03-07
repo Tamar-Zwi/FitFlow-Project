@@ -1,80 +1,39 @@
-\# 🏋️‍♀️ FitFlow Studio - Fullstack Fitness Management System
+# 🏋️ FitFlow Studio – Smart Gym Management System
 
-
-
-Welcome to \*\*FitFlow Studio\*\*, a high-end, full-stack management platform designed to bridge the gap between gym owners and their trainees. This project combines a sleek, modern user interface with a robust, secure backend architecture.
-
-
+### Overview
+FitFlow Studio is a high-performance Full-Stack application designed to streamline the connection between gym owners and trainees. By combining a powerful C# backend with a sleek, animated React frontend, the platform provides a secure and fun environment to manage fitness schedules.
 
 ---
 
+### Core Features
 
+**👑 For Administrators**
+* **Total Control (CRUD):** Easily add, edit, or remove gym members and classes.
+* **Live Overview:** Get a full birds-eye view of the studio's schedule and user database.
 
-\## 🚀 The Vision
-
-To transform gym management into a seamless, automated, and user-friendly experience. No more messy spreadsheets—just pure flow.
-
-
-
----
-
-
-
-\## ✨ Key Features
-
-
-
-\### 👤 For Trainees
-
-\* \*\*Intuitive Booking:\*\* Browse and register for workout sessions in real-time.
-
-\* \*\*Personal Dashboard:\*\* Track your fitness journey with a clean, dark-themed UI.
-
-\* \*\*Security:\*\* Safe and private access to personal data.
-
-
-
-\### 🛡️ For Administrators (Admin Panel)
-
-\* \*\*Dynamic Lesson Management:\*\* Create, update, and manage workout schedules instantly.
-
-\* \*\*Trainee Overview:\*\* Full control over member registrations and attendance.
-
-\* \*\*Real-time Updates:\*\* Changes made in the admin panel reflect across the platform immediately.
-
-
+**💪 For Members**
+* **Quick Sign-up:** Browse the weekly schedule and join classes with a single click.
+* **Personal Profile:** Track your registered classes and keep your personal info up to date.
+* **Daily Spark:** A dynamic daily motivation quote to push you through your next workout.
+* **Modern Feel:** Smooth UI transitions and animations for a premium experience.
 
 ---
 
+### Technical Deep-Dive
+* **Security:** Solid JWT Bearer authentication and industry-standard password encryption.
+* **Role-Based Access (RBAC):** Strict server-side separation between Admin and Member permissions.
+* **API & Documentation:** Fully RESTful architecture, documented and tested using Swagger.
+* **Vibe Coding:** Frontend accelerated by v0 AI to ensure a modern, polished look and feel.
 
+---
 
-\## 🛠️ Tech Stack
+### Tech Stack
+* **Backend:** C# | .NET Core | SQL Server
+* **Frontend:** React | CSS3 Animations
+* **Security & Tools:** JWT, Git, Swagger, Postman
 
+---
 
-
-\### Frontend
-
-\* \*\*Next.js 15:\*\* Utilizing the latest App Router for lightning-fast performance.
-
-\* \*\*Tailwind CSS:\*\* For a modern, responsive, and pixel-perfect design.
-
-\* \*\*Framer Motion:\*\* High-quality animations for a premium feel.
-
-\* \*\*Lucide Icons:\*\* Clean and consistent iconography.
-
-
-
-\### Backend
-
-\* \*\*C# .NET 8 Web API:\*\* A powerful, scalable RESTful API.
-
-\* \*\*SQL Server:\*\* Reliable and structured data management.
-
-\* \*\*JWT Bearer Authentication:\*\* Secure, token-based authorization for all protected routes.
-
-\* \*\*CORS Policy:\*\* Fully configured for seamless cross-origin communication.
-
-
-
-
-
+### Quick Start
+1. **Backend:** Clone the repo, set your connection string in `appsettings.json`, and run `dotnet run`.
+2. **Frontend:** Inside the client folder, run `npm install` followed by `npm start`.
