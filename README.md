@@ -39,10 +39,10 @@ FitFlow Studio היא אפליקציית Full-Stack עוצמתית שנועדה 
 ### טכנולוגיות (Tech Stack)
 * **Backend:** C# | .NET Core | SQL Server
 * **Frontend:** React | Tailwind CSS | v0 AI
-* **Security:** JWT, Git, Swagger, Postman
+* **Security:** JWT, Git, Swagger
 
 ---
 
 ### הוראות הרצה מהירות
-1. **צד שרת:** בצעו Clone, עדכנו את ה-Connection String ב-`appsettings.json`, והריצו `dotnet run`.
-2. **צד לקוח:** כנסו לתיקיית ה-client, הריצו `npm install` ולאחר מכן `npm start`.
+1. **צד שרת:** בצעו Clone, עדכנו את ה-Connection String ב-`appsettings.json`,ואת ההתקנות בכל השכבות, והריצו `dotnet run`.
+2. **צד לקוח:** כנסו לתיקיית ה-client, הריצו `npm install` ולאחר מכן `npm run dev`.
